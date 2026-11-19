@@ -1,0 +1,26 @@
+{
+  "instruction_row": 5,
+  "expected_position": "leftmost",
+  "replies": [
+    "the one on the left"
+  ],
+  "table_A_xy_m": [
+    [
+      0.6,
+      -1.03
+    ],
+    [
+      0.76,
+      -0.99
+    ],
+    [
+      0.66,
+      -0.89
+    ]
+  ],
+  "world": "spatial_06",
+  "instruction": "The green cube on Table A needs to be carried to Table B.",
+  "container": "moma-spatial-a8d2b78e9b",
+  "verifier_exit_code": 1,
+  "simulator_stopped": true
+}

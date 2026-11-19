@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-11-17T02:12:17.624367+00:00",
+  "controller_source": "ROS RGB-D, CameraInfo and TF only",
+  "verifier_source": "separate Gazebo pose subscriber, never supplied to controller",
+  "physical_attachment_used": false,
+  "world": "duplicate_clarification_01",
+  "world_sha256": "9c1124a5ff4f981f17706f82f8b235ab6502f7c82e4d835b344c36f637fdca6a",
+  "target_model": "red_cube_1",
+  "source_table": "A",
+  "destination_table": "B",
+  "initial_world_poses": {
+    "red_cube_1": [
+      0.68,
+      -1,
+      0.8249998789017061
+    ],
+    "red_cube_2": [
+      0.57,
+      -0.84,
+      0.8249998789017061
+    ],
+    "red_cube_3": [
+      0.56,
+      -1.15,
+      0.8249998789017061
+    ]
+  },
+  "controller_exit_code": 0,
+  "final_world_poses": {
+    "red_cube_1": [
+      0.7832920909995945,
+      0.8407291211622869,
+      0.8249998086771982
+    ],
+    "red_cube_2": [
+      0.57,
+      -0.84,
+      0.8249998789017061
+    ],
+    "red_cube_3": [
+      0.56,
+      -1.15,
+      0.8249998789017061
+    ]
+  },
+  "maximum_world_z": {
+    "red_cube_1": 1.071651362205483,
+    "red_cube_2": 0.8249998789017061,
+    "red_cube_3": 0.8249998789017061
+  },
+  "initial_projected_x_px": {
+    "red_cube_1": 390.83023786036625,
+    "red_cube_2": 516.1899457225859,
+    "red_cube_3": 495.7699354380522
+  },
+  "selected_box": [
+    371,
+    166,
+    451,
+    238
+  ],
+  "dialogue": [
+    {
+      "question": "I see 3 matching objects (red cube) on Table A. Which one should I pick? Use the camera view: leftmost, rightmost, middle, topmost, bottommost, or a box number from 1 to 3.",
+      "reply": "pick up the left most red cube"
+    }
+  ],
+  "lift_m": 0.24665148330377695,
+  "finished_at_utc": "2026-11-17T02:16:47.360609+00:00",
+  "other_max_displacement_m": {
+    "red_cube_2": 0.0,
+    "red_cube_3": 0.0
+  }
+}

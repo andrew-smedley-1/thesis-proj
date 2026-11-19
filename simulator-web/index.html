@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>MoMa Simulator</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <h1>MoMa <span>Simulator</span></h1>
+      <p id="status" role="status" data-phase="select">Select a world</p>
+    </header>
+
+    <form id="world-form" class="toolbar">
+      <div class="world-field">
+        <label for="world">World <span class="required">required</span></label>
+        <select id="world" required disabled>
+          <option value="">Choose a world</option>
+        </select>
+      </div>
+      <button id="load-world" disabled>Load world</button>
+      <button id="stop-world" type="button" disabled>Stop world</button>
+      <span id="active-world"></span>
+    </form>
+
+    <div class="workspace">
+      <div class="camera-views">
+        <section id="overview-panel" class="panel camera" aria-labelledby="overview-title" hidden>
+          <div class="panel-heading">
+            <h2 id="overview-title">Gazebo overview</h2>
+          </div>
+          <div class="viewport">
+            <img id="overview-feed" alt="Live Gazebo GUI overview" hidden>
+            <p id="overview-placeholder">Choose and load a world to view the camera.</p>
+          </div>
+        </section>
+        <section class="panel camera" aria-labelledby="wrist-title">
+          <div class="panel-heading">
+            <h2 id="wrist-title">Wrist camera</h2>
+          </div>
+          <div class="viewport">
+            <img id="wrist-feed" alt="Simulator wrist camera" hidden>
+            <p id="wrist-placeholder">Choose and load a world to view the camera.</p>
+          </div>
+        </section>
+      </div>
+
+      <section class="panel logs" aria-labelledby="logs-title">
+        <div class="panel-heading">
+          <h2 id="logs-title">Activity logs</h2>
+          <label for="log-filter" class="sr-only">Filter activity logs</label>
+          <select id="log-filter" aria-controls="logs">
+            <option value="combined">Combined</option>
+            <option value="gazebo">Gazebo</option>
+            <option value="agent">Agent</option>
+          </select>
+        </div>
+        <div id="logs" class="scrollbox" tabindex="0" aria-label="Activity logs">
+          <p class="empty">No activity in this view yet.</p>
+        </div>
+      </section>
+
+      <section class="panel chat" aria-labelledby="chat-title">
+        <div class="panel-heading">
+          <h2 id="chat-title">Agent chat</h2>
+        </div>
+        <div id="messages" class="scrollbox" role="log" aria-label="Chat messages">
+          <p class="empty">Send an instruction after the world loads. The agent’s replies and camera images will appear here.</p>
+        </div>
+        <form id="chat-form" class="composer">
+          <label for="test-case">Test instruction <span class="hint">optional</span></label>
+          <select id="test-case" disabled>
+            <option value="">Write your own instruction</option>
+          </select>
+          <label for="message" class="sr-only">Message</label>
+          <div class="message-field">
+            <textarea id="message" rows="2" maxlength="2000" required disabled placeholder="Type an instruction"></textarea>
+            <button id="send" disabled>Send</button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <p id="error" role="alert" hidden></p>
+  </main>
+
+  <dialog id="image-dialog" aria-label="Response image">
+    <button id="close-image" type="button" autofocus>Close</button>
+    <img id="expanded-image" alt="">
+  </dialog>
+</body>
+</html>

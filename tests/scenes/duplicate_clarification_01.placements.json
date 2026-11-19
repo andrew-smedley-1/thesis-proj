@@ -1,0 +1,140 @@
+{
+  "version": 2,
+  "case": "duplicate_clarification_01",
+  "pose_kind": "generated_spawn_pose_world; not measured after Gazebo settling",
+  "world_file": "duplicate_clarification_01.sdf",
+  "world_sha256": "9c1124a5ff4f981f17706f82f8b235ab6502f7c82e4d835b344c36f637fdca6a",
+  "tables": {
+    "A": {
+      "model": "pick_table",
+      "pose_world": [
+        0.78,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "top_center_xy_m": [
+        0.78,
+        -1.0
+      ],
+      "top_height_m": 0.8,
+      "top_size_m": [
+        0.5,
+        0.65,
+        0.04
+      ]
+    },
+    "B": {
+      "model": "place_table",
+      "pose_world": [
+        0.78,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "top_center_xy_m": [
+        0.78,
+        1.0
+      ],
+      "top_height_m": 0.8,
+      "top_size_m": [
+        0.5,
+        0.65,
+        0.04
+      ]
+    }
+  },
+  "objects": [
+    {
+      "name": "red_cube_1",
+      "shape": "cube",
+      "color": "red",
+      "table": "A",
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mass_kg": 0.1,
+      "pose_world": [
+        0.68,
+        -1.0,
+        0.827,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safety_zone": {
+        "shape": "circle",
+        "frame": "world",
+        "center_xy_m": [
+          0.68,
+          -1.0
+        ],
+        "radius_m": 0.09
+      }
+    },
+    {
+      "name": "red_cube_2",
+      "shape": "cube",
+      "color": "red",
+      "table": "A",
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mass_kg": 0.1,
+      "pose_world": [
+        0.57,
+        -0.84,
+        0.827,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safety_zone": {
+        "shape": "circle",
+        "frame": "world",
+        "center_xy_m": [
+          0.57,
+          -0.84
+        ],
+        "radius_m": 0.09
+      }
+    },
+    {
+      "name": "red_cube_3",
+      "shape": "cube",
+      "color": "red",
+      "table": "A",
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mass_kg": 0.1,
+      "pose_world": [
+        0.56,
+        -1.15,
+        0.827,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safety_zone": {
+        "shape": "circle",
+        "frame": "world",
+        "center_xy_m": [
+          0.56,
+          -1.15
+        ],
+        "radius_m": 0.09
+      }
+    }
+  ]
+}

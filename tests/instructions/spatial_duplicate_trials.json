@@ -1,0 +1,214 @@
+[
+  {
+    "instruction_row": 7,
+    "expected_position": "leftmost",
+    "replies": [
+      "left most"
+    ],
+    "table_A_xy_m": [
+      [
+        0.68,
+        -1.0
+      ],
+      [
+        0.58,
+        -0.88
+      ],
+      [
+        0.56,
+        -1.12
+      ]
+    ]
+  },
+  {
+    "instruction_row": 3,
+    "expected_position": "rightmost",
+    "replies": [
+      "the blue cube on the right"
+    ],
+    "table_A_xy_m": [
+      [
+        0.72,
+        -0.91
+      ],
+      [
+        0.61,
+        -1.0
+      ],
+      [
+        0.69,
+        -1.09
+      ]
+    ]
+  },
+  {
+    "instruction_row": 5,
+    "expected_position": "middle",
+    "replies": [
+      "pick up the middle green cube"
+    ],
+    "table_A_xy_m": [
+      [
+        0.6,
+        -0.93
+      ],
+      [
+        0.68,
+        -1.01
+      ],
+      [
+        0.78,
+        -0.96
+      ]
+    ]
+  },
+  {
+    "instruction_row": 7,
+    "expected_position": "topmost",
+    "replies": [
+      "the cube at the top"
+    ],
+    "table_A_xy_m": [
+      [
+        0.72,
+        -1.09
+      ],
+      [
+        0.62,
+        -0.97
+      ],
+      [
+        0.75,
+        -0.9
+      ]
+    ]
+  },
+  {
+    "instruction_row": 3,
+    "expected_position": "bottommost",
+    "replies": [
+      "the bottom-most blue cube"
+    ],
+    "table_A_xy_m": [
+      [
+        0.74,
+        -1.07
+      ],
+      [
+        0.62,
+        -0.97
+      ],
+      [
+        0.68,
+        -0.89
+      ]
+    ]
+  },
+  {
+    "instruction_row": 5,
+    "expected_position": "leftmost",
+    "replies": [
+      "the one on the left"
+    ],
+    "table_A_xy_m": [
+      [
+        0.6,
+        -1.03
+      ],
+      [
+        0.76,
+        -0.99
+      ],
+      [
+        0.66,
+        -0.89
+      ]
+    ]
+  },
+  {
+    "instruction_row": 7,
+    "expected_position": "rightmost",
+    "replies": [
+      "pick up the right-most red cube"
+    ],
+    "table_A_xy_m": [
+      [
+        0.61,
+        -1.02
+      ],
+      [
+        0.71,
+        -1.1
+      ],
+      [
+        0.75,
+        -0.95
+      ]
+    ]
+  },
+  {
+    "instruction_row": 3,
+    "expected_position": "middle",
+    "replies": [
+      "the blue cube",
+      "the one in the middle"
+    ],
+    "table_A_xy_m": [
+      [
+        0.59,
+        -1.05
+      ],
+      [
+        0.75,
+        -1.04
+      ],
+      [
+        0.67,
+        -0.91
+      ]
+    ]
+  },
+  {
+    "instruction_row": 5,
+    "expected_position": "topmost",
+    "replies": [
+      "the green cube",
+      "top most"
+    ],
+    "table_A_xy_m": [
+      [
+        0.63,
+        -1.1
+      ],
+      [
+        0.75,
+        -0.99
+      ],
+      [
+        0.66,
+        -0.88
+      ]
+    ]
+  },
+  {
+    "instruction_row": 7,
+    "expected_position": "bottommost",
+    "replies": [
+      "pick up the bottom red cube"
+    ],
+    "table_A_xy_m": [
+      [
+        0.75,
+        -1.08
+      ],
+      [
+        0.62,
+        -0.98
+      ],
+      [
+        0.7,
+        -0.89
+      ]
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-11-17T02:48:10.567471+00:00",
+  "controller_source": "ROS RGB-D, CameraInfo and TF only",
+  "verifier_source": "separate Gazebo pose subscriber, never supplied to controller",
+  "physical_attachment_used": false,
+  "world": "spatial_08",
+  "world_sha256": "e54732aa69450a80f5df9b868c3f404c3c0cdf7cbd8f707b38c87b34ea76d56a",
+  "target_model": "blue_cube_3",
+  "source_table": "A",
+  "destination_table": "B",
+  "initial_world_poses": {
+    "blue_cube_1": [
+      0.59,
+      -1.05,
+      0.8249998789017061
+    ],
+    "blue_cube_2": [
+      0.75,
+      -1.04,
+      0.8249998789017061
+    ],
+    "blue_cube_3": [
+      0.67,
+      -0.91,
+      0.8249998789017061
+    ]
+  },
+  "controller_exit_code": 0,
+  "final_world_poses": {
+    "blue_cube_1": [
+      0.59,
+      -1.05,
+      0.8249998789017061
+    ],
+    "blue_cube_2": [
+      0.75,
+      -1.04,
+      0.8249998789017061
+    ],
+    "blue_cube_3": [
+      0.7811667493606403,
+      0.8398071174442064,
+      0.8249999835576222
+    ]
+  },
+  "maximum_world_z": {
+    "blue_cube_1": 0.8249998789017061,
+    "blue_cube_2": 0.8249998789017061,
+    "blue_cube_3": 1.0679393489525346
+  },
+  "direction": "middle",
+  "dialogue": [
+    {
+      "question": "I see 3 blue cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "the blue cube"
+    },
+    {
+      "question": "That reply does not identify one box. I see 3 blue cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "the one in the middle"
+    }
+  ],
+  "boxes_detected": 3,
+  "graph_status": "pick_place_complete",
+  "graph_error": "",
+  "clarification_correct": true,
+  "selection_correct": true,
+  "selected_box": [
+    391,
+    279,
+    476,
+    356
+  ],
+  "projected_centers_px": {
+    "blue_cube_1": [
+      474.6930646870326,
+      122.55901303018548
+    ],
+    "blue_cube_2": [
+      315.85693185893695,
+      149.50288455522553
+    ],
+    "blue_cube_3": [
+      409.79401818440147,
+      271.0267652083776
+    ]
+  },
+  "matched_instances": [
+    "blue_cube_2",
+    "blue_cube_1",
+    "blue_cube_3"
+  ],
+  "match_residuals_px": [
+    19.97597583764993,
+    21.066724929745714,
+    21.413661466390046
+  ],
+  "unique_match": true,
+  "chosen_model": "blue_cube_3",
+  "lift_m": 0.2429394700508285,
+  "other_max_displacement_m": {
+    "blue_cube_2": 0.0,
+    "blue_cube_1": 0.0
+  },
+  "finished_at_utc": "2026-11-17T02:53:40.933724+00:00"
+}

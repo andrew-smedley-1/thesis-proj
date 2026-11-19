@@ -1,0 +1,101 @@
+{
+  "passed": false,
+  "started_at_utc": "2026-11-17T02:45:06.159142+00:00",
+  "controller_source": "ROS RGB-D, CameraInfo and TF only",
+  "verifier_source": "separate Gazebo pose subscriber, never supplied to controller",
+  "physical_attachment_used": false,
+  "world": "spatial_06",
+  "world_sha256": "4e16b908ea703d2165d46156635da90cc71cb05dbf14b2123ed9c4fe4e09338e",
+  "target_model": "green_cube_2",
+  "source_table": "A",
+  "destination_table": "B",
+  "initial_world_poses": {
+    "green_cube_1": [
+      0.6,
+      -1.03,
+      0.8249998789017061
+    ],
+    "green_cube_2": [
+      0.76,
+      -0.99,
+      0.8249998789017061
+    ],
+    "green_cube_3": [
+      0.66,
+      -0.89,
+      0.8249998789017061
+    ]
+  },
+  "controller_exit_code": 1,
+  "final_world_poses": {
+    "green_cube_1": [
+      0.6,
+      -1.03,
+      0.8249998789017061
+    ],
+    "green_cube_2": [
+      0.76,
+      -0.99,
+      0.8249998789017061
+    ],
+    "green_cube_3": [
+      0.66,
+      -0.89,
+      0.8249998789017061
+    ]
+  },
+  "maximum_world_z": {
+    "green_cube_1": 0.8249998789017061,
+    "green_cube_2": 0.8249998789017061,
+    "green_cube_3": 0.8249998789017061
+  },
+  "direction": "leftmost",
+  "dialogue": [
+    {
+      "question": "I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "the one on the left"
+    }
+  ],
+  "boxes_detected": 3,
+  "graph_status": "manipulation_failed",
+  "graph_error": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}",
+  "clarification_correct": true,
+  "selection_correct": true,
+  "selected_box": [
+    271,
+    187,
+    346,
+    259
+  ],
+  "projected_centers_px": {
+    "green_cube_1": [
+      465.8096677522375,
+      138.99486898107384
+    ],
+    "green_cube_2": [
+      307.65812088733884,
+      196.59729100206326
+    ],
+    "green_cube_3": [
+      420.33739903019347,
+      287.7189913021785
+    ]
+  },
+  "matched_instances": [
+    "green_cube_2",
+    "green_cube_1",
+    "green_cube_3"
+  ],
+  "match_residuals_px": [
+    20.68076919543757,
+    21.818272236810525,
+    20.689236646067712
+  ],
+  "unique_match": true,
+  "chosen_model": "green_cube_2",
+  "failure": {
+    "type": "RuntimeError",
+    "message": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}"
+  },
+  "finished_at_utc": "2026-11-17T02:47:25.711743+00:00"
+}

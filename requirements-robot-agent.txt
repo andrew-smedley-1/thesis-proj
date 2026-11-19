@@ -1,0 +1,9 @@
+# ROS packages come from apt/rosdep, not PyPI. These packages support the LangGraph workflow.
+langchain-core>=1,<2
+langchain-openai>=1,<2
+python-dotenv>=1,<2
+langgraph>=1,<2
+langchain-google-genai>=4,<5
+pillow>=11,<14
+# ROS Jazzy's apt cv_bridge is built against NumPy 1.x.
+numpy>=1.26,<2

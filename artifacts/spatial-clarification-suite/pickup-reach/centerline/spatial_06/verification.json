@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-11-17T03:34:30.539637+00:00",
+  "controller_source": "ROS RGB-D, CameraInfo and TF only",
+  "verifier_source": "separate Gazebo pose subscriber, never supplied to controller",
+  "physical_attachment_used": false,
+  "world": "spatial_06",
+  "world_sha256": "4e16b908ea703d2165d46156635da90cc71cb05dbf14b2123ed9c4fe4e09338e",
+  "target_model": "green_cube_2",
+  "source_table": "A",
+  "destination_table": "B",
+  "initial_world_poses": {
+    "green_cube_1": [
+      0.6,
+      -1.03,
+      0.8249998789017061
+    ],
+    "green_cube_2": [
+      0.76,
+      -0.99,
+      0.8249998789017061
+    ],
+    "green_cube_3": [
+      0.66,
+      -0.89,
+      0.8249998789017061
+    ]
+  },
+  "controller_exit_code": 0,
+  "final_world_poses": {
+    "green_cube_1": [
+      0.6,
+      -1.03,
+      0.8249998789017061
+    ],
+    "green_cube_2": [
+      0.7829833754925847,
+      0.8468975789808327,
+      0.8249998928260751
+    ],
+    "green_cube_3": [
+      0.66,
+      -0.89,
+      0.8249998789017061
+    ]
+  },
+  "maximum_world_z": {
+    "green_cube_1": 0.8249998789017061,
+    "green_cube_2": 1.063657945928493,
+    "green_cube_3": 0.8249998789017061
+  },
+  "direction": "leftmost",
+  "dialogue": [
+    {
+      "question": "I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "the one on the left"
+    }
+  ],
+  "boxes_detected": 3,
+  "graph_status": "pick_place_complete",
+  "graph_error": "",
+  "clarification_correct": true,
+  "selection_correct": true,
+  "selected_box": [
+    289,
+    175,
+    360,
+    245
+  ],
+  "projected_centers_px": {
+    "green_cube_1": [
+      478.9774821733542,
+      137.4747643677344
+    ],
+    "green_cube_2": [
+      320.5393418206749,
+      192.4993034564673
+    ],
+    "green_cube_3": [
+      431.31963529993095,
+      284.9507983152108
+    ]
+  },
+  "matched_instances": [
+    "green_cube_2",
+    "green_cube_1",
+    "green_cube_3"
+  ],
+  "match_residuals_px": [
+    20.596911174423912,
+    22.253566874654933,
+    20.444791847947258
+  ],
+  "unique_match": true,
+  "chosen_model": "green_cube_2",
+  "lift_m": 0.23865806702678682,
+  "other_max_displacement_m": {
+    "green_cube_3": 0.0,
+    "green_cube_1": 0.0
+  },
+  "finished_at_utc": "2026-11-17T03:39:25.856439+00:00"
+}

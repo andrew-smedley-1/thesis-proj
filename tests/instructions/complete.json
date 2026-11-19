@@ -1,0 +1,47 @@
+[
+  {
+    "instruction": "Move the red cylinder from Table A to Table B.",
+    "expected": {"target_object": "red cylinder", "start_location": "Table A", "end_location": "Table B"},
+    "missing_fields": []
+  },
+  {
+    "instruction": "From Table B, bring the green sphere to Table A.",
+    "expected": {"target_object": "green sphere", "start_location": "Table B", "end_location": "Table A"},
+    "missing_fields": []
+  },
+  {
+    "instruction": "Take the blue cube to Table B from Table A.",
+    "expected": {"target_object": "blue cube", "start_location": "Table A", "end_location": "Table B"},
+    "missing_fields": []
+  },
+  {
+    "instruction": "Place on Table A the red sphere currently on Table B.",
+    "expected": {"target_object": "red sphere", "start_location": "Table B", "end_location": "Table A"},
+    "missing_fields": []
+  },
+  {
+    "instruction": "The green cube on Table A needs to be carried to Table B.",
+    "expected": {"target_object": "green cube", "start_location": "Table A", "end_location": "Table B"},
+    "missing_fields": []
+  },
+  {
+    "instruction": "To Table A, transfer the blue cylinder from Table B.",
+    "expected": {"target_object": "blue cylinder", "start_location": "Table B", "end_location": "Table A"},
+    "missing_fields": []
+  },
+  {
+    "instruction": "Pick up the red cube from Table A and set it down on Table B.",
+    "expected": {"target_object": "red cube", "start_location": "Table A", "end_location": "Table B"},
+    "missing_fields": []
+  },
+  {
+    "instruction": "Bring to Table A, from Table B, the green cylinder.",
+    "expected": {"target_object": "green cylinder", "start_location": "Table B", "end_location": "Table A"},
+    "missing_fields": []
+  },
+  {
+    "instruction": "Table B is the destination for the blue sphere; take it from Table A.",
+    "expected": {"target_object": "blue sphere", "start_location": "Table A", "end_location": "Table B"},
+    "missing_fields": []
+  }
+]

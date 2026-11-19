@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-11-17T02:32:55.291321+00:00",
+  "controller_source": "ROS RGB-D, CameraInfo and TF only",
+  "verifier_source": "separate Gazebo pose subscriber, never supplied to controller",
+  "physical_attachment_used": false,
+  "world": "spatial_02",
+  "world_sha256": "a16f6c1a5604fe75db04246691ce40fb5220906e954fe379150799e9dce099b0",
+  "target_model": "blue_cube_2",
+  "source_table": "A",
+  "destination_table": "B",
+  "initial_world_poses": {
+    "blue_cube_1": [
+      0.72,
+      -0.91,
+      0.8249998789017061
+    ],
+    "blue_cube_2": [
+      0.61,
+      -1,
+      0.8249998789017061
+    ],
+    "blue_cube_3": [
+      0.69,
+      -1.09,
+      0.8249998789017061
+    ]
+  },
+  "controller_exit_code": 0,
+  "final_world_poses": {
+    "blue_cube_1": [
+      0.72,
+      -0.91,
+      0.8249998789017061
+    ],
+    "blue_cube_2": [
+      0.7823004838721735,
+      0.8389039441663465,
+      0.8249999834061436
+    ],
+    "blue_cube_3": [
+      0.69,
+      -1.09,
+      0.8249998789017061
+    ]
+  },
+  "maximum_world_z": {
+    "blue_cube_1": 0.8249998789017061,
+    "blue_cube_2": 1.0726375140730797,
+    "blue_cube_3": 0.8249998789017061
+  },
+  "direction": "rightmost",
+  "dialogue": [
+    {
+      "question": "I see 3 blue cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "the blue cube on the right"
+    }
+  ],
+  "boxes_detected": 3,
+  "graph_status": "pick_place_complete",
+  "graph_error": "",
+  "clarification_correct": true,
+  "selection_correct": true,
+  "selected_box": [
+    444,
+    146,
+    537,
+    220
+  ],
+  "projected_centers_px": {
+    "blue_cube_1": [
+      354.8943545012368,
+      263.8642741599748
+    ],
+    "blue_cube_2": [
+      456.21418099244886,
+      161.37822612751845
+    ],
+    "blue_cube_3": [
+      366.1340008738752,
+      78.54582592463714
+    ]
+  },
+  "matched_instances": [
+    "blue_cube_3",
+    "blue_cube_2",
+    "blue_cube_1"
+  ],
+  "match_residuals_px": [
+    19.867550616697773,
+    13.067483085744959,
+    23.45102504780153
+  ],
+  "unique_match": true,
+  "chosen_model": "blue_cube_2",
+  "lift_m": 0.2476376351713736,
+  "other_max_displacement_m": {
+    "blue_cube_1": 0.0,
+    "blue_cube_3": 0.0
+  },
+  "finished_at_utc": "2026-11-17T02:38:30.370744+00:00"
+}

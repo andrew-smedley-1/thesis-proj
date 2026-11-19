@@ -1,0 +1,27 @@
+{
+  "instruction_row": 5,
+  "expected_position": "topmost",
+  "replies": [
+    "the green cube",
+    "top most"
+  ],
+  "table_A_xy_m": [
+    [
+      0.63,
+      -1.1
+    ],
+    [
+      0.75,
+      -0.99
+    ],
+    [
+      0.66,
+      -0.88
+    ]
+  ],
+  "world": "spatial_09",
+  "instruction": "The green cube on Table A needs to be carried to Table B.",
+  "container": "moma-spatial-8f036eb6ca",
+  "verifier_exit_code": 1,
+  "simulator_stopped": true
+}

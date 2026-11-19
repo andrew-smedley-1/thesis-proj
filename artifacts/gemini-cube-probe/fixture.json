@@ -1,0 +1,31 @@
+{
+  "image": "input.png",
+  "size": [
+    640,
+    480
+  ],
+  "reference_boxes_xyxy": [
+    [
+      86,
+      171,
+      127,
+      217
+    ],
+    [
+      231,
+      88,
+      272,
+      134
+    ],
+    [
+      306,
+      281,
+      347,
+      327
+    ]
+  ],
+  "target_index": 0,
+  "source_sha256": "b53650f683a42ba3268348c7b9a3d8c59133eaf210495ebe59fc0063e1767a60",
+  "coordinate_convention": "half-open xyxy",
+  "annotation": "Original cube pixels x231..271 and y88..133 inclusive; half-open [231,88,272,134], translated with patches. Shadow excluded. Left-most means image horizontal center."
+}

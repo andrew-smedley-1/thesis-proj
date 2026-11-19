@@ -1,0 +1,334 @@
+{
+  "counts": {
+    "asked": 10,
+    "full_clarification": 10,
+    "selected_correct": 10,
+    "held_after_lift": 7,
+    "transfer_verified": 7
+  },
+  "trials": [
+    {
+      "trial": "spatial_01",
+      "instruction": "Pick up the red cube from Table A and set it down on Table B.",
+      "replies": [
+        "left most"
+      ],
+      "expected_position": "leftmost",
+      "world_sha256": "0a50e7db300dae0c3aeef1b3e43d4846431be698a2df9722daad1866966bb556",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 red cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "left most"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": true,
+      "transfer_verified": true,
+      "expected_instance": "red_cube_1",
+      "selected_instance": "red_cube_1",
+      "graph_status": "pick_place_complete",
+      "failure": "",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 336.820075
+    },
+    {
+      "trial": "spatial_02",
+      "instruction": "Take the blue cube to Table B from Table A.",
+      "replies": [
+        "the blue cube on the right"
+      ],
+      "expected_position": "rightmost",
+      "world_sha256": "a16f6c1a5604fe75db04246691ce40fb5220906e954fe379150799e9dce099b0",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 blue cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "the blue cube on the right"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": true,
+      "transfer_verified": true,
+      "expected_instance": "blue_cube_2",
+      "selected_instance": "blue_cube_2",
+      "graph_status": "pick_place_complete",
+      "failure": "",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 335.079423
+    },
+    {
+      "trial": "spatial_03",
+      "instruction": "The green cube on Table A needs to be carried to Table B.",
+      "replies": [
+        "pick up the middle green cube"
+      ],
+      "expected_position": "middle",
+      "world_sha256": "d5b1699f118a658d19724b39204d6689d237ef7ee37e5f4bbe1d2b7ef16736af",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "pick up the middle green cube"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": true,
+      "transfer_verified": true,
+      "expected_instance": "green_cube_2",
+      "selected_instance": "green_cube_2",
+      "graph_status": "pick_place_complete",
+      "failure": "",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 335.002819
+    },
+    {
+      "trial": "spatial_04",
+      "instruction": "Pick up the red cube from Table A and set it down on Table B.",
+      "replies": [
+        "the cube at the top"
+      ],
+      "expected_position": "topmost",
+      "world_sha256": "9880122c48e2e8268481a07c9836542a1fe05eeea117cc4d39117160afc94c6b",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 red cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "the cube at the top"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": false,
+      "transfer_verified": false,
+      "expected_instance": "red_cube_1",
+      "selected_instance": "red_cube_1",
+      "graph_status": "manipulation_failed",
+      "failure": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 138.742303,
+      "diagnosis": "MoveIt could not find a valid arm configuration for the approach pose. The cube was not lifted."
+    },
+    {
+      "trial": "spatial_05",
+      "instruction": "Take the blue cube to Table B from Table A.",
+      "replies": [
+        "the bottom-most blue cube"
+      ],
+      "expected_position": "bottommost",
+      "world_sha256": "e7c648afc89542ce7ff4dff3081ef278df49306334c137eb6a708118d87b0e6a",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 blue cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "the bottom-most blue cube"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": true,
+      "transfer_verified": true,
+      "expected_instance": "blue_cube_3",
+      "selected_instance": "blue_cube_3",
+      "graph_status": "pick_place_complete",
+      "failure": "",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 329.397211
+    },
+    {
+      "trial": "spatial_06",
+      "instruction": "The green cube on Table A needs to be carried to Table B.",
+      "replies": [
+        "the one on the left"
+      ],
+      "expected_position": "leftmost",
+      "world_sha256": "4e16b908ea703d2165d46156635da90cc71cb05dbf14b2123ed9c4fe4e09338e",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "the one on the left"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": false,
+      "transfer_verified": false,
+      "expected_instance": "green_cube_2",
+      "selected_instance": "green_cube_2",
+      "graph_status": "manipulation_failed",
+      "failure": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 139.552601,
+      "diagnosis": "MoveIt could not find a valid arm configuration for the approach pose. The cube was not lifted."
+    },
+    {
+      "trial": "spatial_07",
+      "instruction": "Pick up the red cube from Table A and set it down on Table B.",
+      "replies": [
+        "pick up the right-most red cube"
+      ],
+      "expected_position": "rightmost",
+      "world_sha256": "19e6480fb8835b589f4622d86e1f3b29e53ebc6e7399e93b06c6ecd49973db19",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 red cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "pick up the right-most red cube"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": true,
+      "transfer_verified": true,
+      "expected_instance": "red_cube_1",
+      "selected_instance": "red_cube_1",
+      "graph_status": "pick_place_complete",
+      "failure": "",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 329.353411
+    },
+    {
+      "trial": "spatial_08",
+      "instruction": "Take the blue cube to Table B from Table A.",
+      "replies": [
+        "the blue cube",
+        "the one in the middle"
+      ],
+      "expected_position": "middle",
+      "world_sha256": "e54732aa69450a80f5df9b868c3f404c3c0cdf7cbd8f707b38c87b34ea76d56a",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 blue cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "the blue cube"
+        },
+        {
+          "question": "That reply does not identify one box. I see 3 blue cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "the one in the middle"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": true,
+      "transfer_verified": true,
+      "expected_instance": "blue_cube_3",
+      "selected_instance": "blue_cube_3",
+      "graph_status": "pick_place_complete",
+      "failure": "",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 330.366253
+    },
+    {
+      "trial": "spatial_09",
+      "instruction": "The green cube on Table A needs to be carried to Table B.",
+      "replies": [
+        "the green cube",
+        "top most"
+      ],
+      "expected_position": "topmost",
+      "world_sha256": "9a9367e12c72227667c617293522d78fd9193b49d56096c7e80fb41d5b6fca84",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "the green cube"
+        },
+        {
+          "question": "That reply does not identify one box. I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "top most"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": false,
+      "transfer_verified": false,
+      "expected_instance": "green_cube_1",
+      "selected_instance": "green_cube_1",
+      "graph_status": "manipulation_failed",
+      "failure": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 138.650468,
+      "diagnosis": "MoveIt could not find a valid arm configuration for the approach pose. The cube was not lifted."
+    },
+    {
+      "trial": "spatial_10",
+      "instruction": "Pick up the red cube from Table A and set it down on Table B.",
+      "replies": [
+        "pick up the bottom red cube"
+      ],
+      "expected_position": "bottommost",
+      "world_sha256": "efdf74d6d5d32bbcc98cfa33149caa15baae829508fa3b6dd81ace6c4e0841ec",
+      "observed_dialogue": [
+        {
+          "question": "I see 3 red cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+          "reply": "pick up the bottom red cube"
+        }
+      ],
+      "detected": 3,
+      "asked": true,
+      "full_clarification": true,
+      "selected_correct": true,
+      "held_after_lift": true,
+      "transfer_verified": true,
+      "expected_instance": "red_cube_3",
+      "selected_instance": "red_cube_3",
+      "graph_status": "pick_place_complete",
+      "failure": "",
+      "model_calls": [
+        "task_decomposition",
+        "item_presence_detection",
+        "bounding_boxes"
+      ],
+      "verification_elapsed_s": 304.925362
+    }
+  ]
+}

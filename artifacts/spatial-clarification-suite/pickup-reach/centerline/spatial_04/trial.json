@@ -1,0 +1,26 @@
+{
+  "instruction_row": 7,
+  "expected_position": "topmost",
+  "replies": [
+    "the cube at the top"
+  ],
+  "table_A_xy_m": [
+    [
+      0.72,
+      -1.09
+    ],
+    [
+      0.62,
+      -0.97
+    ],
+    [
+      0.75,
+      -0.9
+    ]
+  ],
+  "world": "spatial_04",
+  "instruction": "Pick up the red cube from Table A and set it down on Table B.",
+  "container": "moma-spatial-7b3376adb1",
+  "verifier_exit_code": 0,
+  "simulator_stopped": true
+}

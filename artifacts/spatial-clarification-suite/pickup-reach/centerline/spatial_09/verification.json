@@ -1,0 +1,105 @@
+{
+  "passed": false,
+  "started_at_utc": "2026-11-17T03:30:07.151074+00:00",
+  "controller_source": "ROS RGB-D, CameraInfo and TF only",
+  "verifier_source": "separate Gazebo pose subscriber, never supplied to controller",
+  "physical_attachment_used": false,
+  "world": "spatial_09",
+  "world_sha256": "9a9367e12c72227667c617293522d78fd9193b49d56096c7e80fb41d5b6fca84",
+  "target_model": "green_cube_1",
+  "source_table": "A",
+  "destination_table": "B",
+  "initial_world_poses": {
+    "green_cube_1": [
+      0.63,
+      -1.1,
+      0.8249998789017061
+    ],
+    "green_cube_2": [
+      0.75,
+      -0.99,
+      0.8249998789017061
+    ],
+    "green_cube_3": [
+      0.66,
+      -0.88,
+      0.8249998789017061
+    ]
+  },
+  "controller_exit_code": 1,
+  "final_world_poses": {
+    "green_cube_1": [
+      0.6285035334500968,
+      -1.1012614990295049,
+      0.8249999694123781
+    ],
+    "green_cube_2": [
+      0.75,
+      -0.99,
+      0.8249998789017061
+    ],
+    "green_cube_3": [
+      0.66,
+      -0.88,
+      0.8249998789017061
+    ]
+  },
+  "maximum_world_z": {
+    "green_cube_1": 0.8267962937009166,
+    "green_cube_2": 0.8249998789017061,
+    "green_cube_3": 0.8249998789017061
+  },
+  "direction": "topmost",
+  "dialogue": [
+    {
+      "question": "I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "the green cube"
+    },
+    {
+      "question": "That reply does not identify one box. I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "top most"
+    }
+  ],
+  "boxes_detected": 3,
+  "graph_status": "manipulation_failed",
+  "graph_error": "Fresh wrist RGB-D does not confirm the lifted target near the fingers",
+  "clarification_correct": true,
+  "selection_correct": true,
+  "selected_box": [
+    435,
+    9,
+    525,
+    103
+  ],
+  "projected_centers_px": {
+    "green_cube_1": [
+      447.65101249671613,
+      64.34336453765417
+    ],
+    "green_cube_2": [
+      337.3561413674031,
+      186.09334527120444
+    ],
+    "green_cube_3": [
+      437.83876125472113,
+      288.16772835961973
+    ]
+  },
+  "matched_instances": [
+    "green_cube_2",
+    "green_cube_1",
+    "green_cube_3"
+  ],
+  "match_residuals_px": [
+    14.91265249373744,
+    26.983473861123286,
+    26.040032369774586
+  ],
+  "unique_match": true,
+  "chosen_model": "green_cube_1",
+  "failure": {
+    "type": "RuntimeError",
+    "message": "Fresh wrist RGB-D does not confirm the lifted target near the fingers"
+  },
+  "finished_at_utc": "2026-11-17T03:33:45.841558+00:00"
+}

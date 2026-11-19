@@ -1,0 +1,201 @@
+[
+  {
+    "event": "carry_pose",
+    "wall_time": 1794885850.0605304,
+    "target": [
+      0.4,
+      -0.4,
+      1.35
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "destination_overview",
+    "wall_time": 1794885903.3068838,
+    "target": [
+      0.4,
+      -0.9,
+      1.25
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "destination_clear_patch",
+    "wall_time": 1794885915.197529,
+    "position": [
+      1.6400000000000001,
+      0.88,
+      0.8615322279274915
+    ],
+    "plane": [
+      0.006934290208888323,
+      0.0007709183864682556,
+      0.8494815838048226
+    ]
+  },
+  {
+    "event": "carry_pose",
+    "wall_time": 1794885915.1983864,
+    "target": [
+      0.4,
+      -0.4,
+      1.35
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "source_overview",
+    "wall_time": 1794885949.6553283,
+    "target": [
+      0.3865043119137259,
+      -0.7251758651875834,
+      1.25
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "rgbd_grasp_plan",
+    "wall_time": 1794885963.3752367,
+    "color": "green",
+    "shape": "cube",
+    "center": [
+      1.6433414353912887,
+      -0.9490024681565418,
+      0.8845039147309622
+    ],
+    "grasp": [
+      1.6433414353912887,
+      -0.9490024681565418,
+      1.1065039147309623
+    ],
+    "lift": [
+      1.6433414353912887,
+      -0.9490024681565418,
+      1.2795039147309621
+    ]
+  },
+  {
+    "event": "gripper",
+    "wall_time": 1794885963.742362,
+    "target": 0.01,
+    "status": "succeeded",
+    "message": "gripper: succeeded",
+    "ros_status": 4,
+    "details": {
+      "position": 0.019150716996241473,
+      "effort": 60.0,
+      "stalled": false,
+      "reached_goal": true
+    },
+    "success": true
+  },
+  {
+    "event": "approach",
+    "wall_time": 1794885964.4452264,
+    "target": [
+      1.6433414353912887,
+      -0.9490024681565418,
+      1.2795039147309621
+    ],
+    "frame": "odom",
+    "linear": false
+  },
+  {
+    "event": "descend",
+    "wall_time": 1794885971.768201,
+    "target": [
+      1.6433414353912887,
+      -0.9490024681565418,
+      1.1065039147309623
+    ],
+    "frame": "odom",
+    "linear": true
+  },
+  {
+    "event": "gripper",
+    "wall_time": 1794886001.7567441,
+    "target": 0.54,
+    "status": "succeeded",
+    "message": "gripper: succeeded",
+    "ros_status": 4,
+    "details": {
+      "position": 0.5302244337603663,
+      "effort": 60.0,
+      "stalled": false,
+      "reached_goal": true
+    },
+    "success": true
+  },
+  {
+    "event": "lift",
+    "wall_time": 1794886002.4645631,
+    "target": [
+      1.6433414353912887,
+      -0.9490024681565418,
+      1.2795039147309621
+    ],
+    "frame": "odom",
+    "linear": true
+  },
+  {
+    "event": "held_sensor_evidence",
+    "wall_time": 1794886030.161826,
+    "color": "green",
+    "target_pixels": 23206,
+    "nearby_pixels": 13382,
+    "expected": [
+      1.6433414510058222,
+      -0.9490025105629055,
+      1.057492925806113
+    ],
+    "nearest_distance": 0.013301781195311772,
+    "median_target_position": [
+      1.6291754877134395,
+      -0.9652445737169448,
+      1.0577722998216137
+    ]
+  },
+  {
+    "event": "held_verified",
+    "wall_time": 1794886030.1627727,
+    "pixels": 13382,
+    "measured": [
+      1.6438517396370256,
+      -0.9654474922232157,
+      1.0785675628143627
+    ]
+  },
+  {
+    "event": "carry_pose",
+    "wall_time": 1794886030.1662903,
+    "target": [
+      0.4,
+      -0.4,
+      1.35
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "held_sensor_evidence",
+    "wall_time": 1794886068.0946512,
+    "color": "green",
+    "target_pixels": 273,
+    "nearby_pixels": 0,
+    "expected": [
+      1.5439548298011554,
+      0.4277981691602185,
+      1.1269564137862829
+    ],
+    "nearest_distance": 1.010759982956591,
+    "median_target_position": [
+      1.6186962159416267,
+      0.44706198507313105,
+      0.11030863392184154
+    ]
+  }
+]

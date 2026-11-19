@@ -1,0 +1,73 @@
+{
+  "mode": "direct",
+  "prompt": "pick up the left-most red cube. Return the bounding box of only that cube. Return box_2d as [ymin, xmin, ymax, xmax] normalized to 0-1000. Return an empty list if absent.",
+  "model": "gemini-3.8-flash",
+  "elapsed_seconds": 5.219733070000075,
+  "input_sha256": "ad49831e9238f138b5c06f63bcc504d78a93fce0de479826b78a06439798bd12",
+  "raw_structured_response": {
+    "boxes": [
+      {
+        "box_2d": [
+          355,
+          134,
+          452,
+          199
+        ]
+      }
+    ]
+  },
+  "scores": {
+    "pixel_boxes_xyxy": [
+      [
+        86,
+        170,
+        127,
+        217
+      ]
+    ],
+    "iou_matrix": [
+      [
+        0.9787234042553191,
+        0.0,
+        0.0
+      ]
+    ],
+    "selected_prediction_index": 0,
+    "selected_target_iou": 0.9787234042553191,
+    "count": 1,
+    "selection_pass": true,
+    "all_detection_pass": null,
+    "threshold": 0.5
+  },
+  "fixture": {
+    "image": "input.png",
+    "size": [
+      640,
+      480
+    ],
+    "reference_boxes_xyxy": [
+      [
+        86,
+        171,
+        127,
+        217
+      ],
+      [
+        231,
+        88,
+        272,
+        134
+      ],
+      [
+        306,
+        281,
+        347,
+        327
+      ]
+    ],
+    "target_index": 0,
+    "source_sha256": "b53650f683a42ba3268348c7b9a3d8c59133eaf210495ebe59fc0063e1767a60",
+    "coordinate_convention": "half-open xyxy",
+    "annotation": "Original cube pixels x231..271 and y88..133 inclusive; half-open [231,88,272,134], translated with patches. Shadow excluded. Left-most means image horizontal center."
+  }
+}

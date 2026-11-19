@@ -1,0 +1,105 @@
+{
+  "passed": false,
+  "started_at_utc": "2026-11-17T02:54:15.318237+00:00",
+  "controller_source": "ROS RGB-D, CameraInfo and TF only",
+  "verifier_source": "separate Gazebo pose subscriber, never supplied to controller",
+  "physical_attachment_used": false,
+  "world": "spatial_09",
+  "world_sha256": "9a9367e12c72227667c617293522d78fd9193b49d56096c7e80fb41d5b6fca84",
+  "target_model": "green_cube_1",
+  "source_table": "A",
+  "destination_table": "B",
+  "initial_world_poses": {
+    "green_cube_1": [
+      0.63,
+      -1.1,
+      0.8249998789017061
+    ],
+    "green_cube_2": [
+      0.75,
+      -0.99,
+      0.8249998789017061
+    ],
+    "green_cube_3": [
+      0.66,
+      -0.88,
+      0.8249998789017061
+    ]
+  },
+  "controller_exit_code": 1,
+  "final_world_poses": {
+    "green_cube_1": [
+      0.63,
+      -1.1,
+      0.8249998789017061
+    ],
+    "green_cube_2": [
+      0.75,
+      -0.99,
+      0.8249998789017061
+    ],
+    "green_cube_3": [
+      0.66,
+      -0.88,
+      0.8249998789017061
+    ]
+  },
+  "maximum_world_z": {
+    "green_cube_1": 0.8249998789017061,
+    "green_cube_2": 0.8249998789017061,
+    "green_cube_3": 0.8249998789017061
+  },
+  "direction": "topmost",
+  "dialogue": [
+    {
+      "question": "I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "the green cube"
+    },
+    {
+      "question": "That reply does not identify one box. I see 3 green cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "top most"
+    }
+  ],
+  "boxes_detected": 3,
+  "graph_status": "manipulation_failed",
+  "graph_error": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}",
+  "clarification_correct": true,
+  "selection_correct": true,
+  "selected_box": [
+    409,
+    29,
+    496,
+    120
+  ],
+  "projected_centers_px": {
+    "green_cube_1": [
+      424.4797556029588,
+      72.49742538768027
+    ],
+    "green_cube_2": [
+      315.0494516570691,
+      194.82280958196344
+    ],
+    "green_cube_3": [
+      416.94618304886177,
+      296.66985409520106
+    ]
+  },
+  "matched_instances": [
+    "green_cube_1",
+    "green_cube_2",
+    "green_cube_3"
+  ],
+  "match_residuals_px": [
+    26.343179543450525,
+    14.892003451550917,
+    24.878969455503167
+  ],
+  "unique_match": true,
+  "chosen_model": "green_cube_1",
+  "failure": {
+    "type": "RuntimeError",
+    "message": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}"
+  },
+  "finished_at_utc": "2026-11-17T02:56:33.968705+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "instruction_row": 3,
+  "expected_position": "bottommost",
+  "replies": [
+    "the bottom-most blue cube"
+  ],
+  "table_A_xy_m": [
+    [
+      0.74,
+      -1.07
+    ],
+    [
+      0.62,
+      -0.97
+    ],
+    [
+      0.68,
+      -0.89
+    ]
+  ],
+  "world": "spatial_05",
+  "instruction": "Take the blue cube to Table B from Table A.",
+  "container": "moma-spatial-ebffcd26e3",
+  "verifier_exit_code": 0,
+  "simulator_stopped": true
+}

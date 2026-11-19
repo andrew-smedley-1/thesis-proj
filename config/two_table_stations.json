@@ -1,0 +1,8 @@
+{
+  "table A": {
+    "center": [1.58, -1.0, 0.8],
+    "view_pose": [0.45, -0.85, 1.25],
+    "pickup_pose": {"x": 1.36, "y": 0.0, "yaw": 0.0, "frame_id": "map"}
+  },
+  "table B": {"center": [1.58, 1.0, 0.8], "view_pose": [0.4, -0.9, 1.25]}
+}

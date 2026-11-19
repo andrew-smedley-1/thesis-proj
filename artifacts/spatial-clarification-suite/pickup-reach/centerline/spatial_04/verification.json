@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-11-17T03:29:51.044088+00:00",
+  "controller_source": "ROS RGB-D, CameraInfo and TF only",
+  "verifier_source": "separate Gazebo pose subscriber, never supplied to controller",
+  "physical_attachment_used": false,
+  "world": "spatial_04",
+  "world_sha256": "9880122c48e2e8268481a07c9836542a1fe05eeea117cc4d39117160afc94c6b",
+  "target_model": "red_cube_1",
+  "source_table": "A",
+  "destination_table": "B",
+  "initial_world_poses": {
+    "red_cube_1": [
+      0.72,
+      -1.09,
+      0.8249998789017061
+    ],
+    "red_cube_2": [
+      0.62,
+      -0.97,
+      0.8249998789017061
+    ],
+    "red_cube_3": [
+      0.75,
+      -0.9,
+      0.8249998789017061
+    ]
+  },
+  "controller_exit_code": 0,
+  "final_world_poses": {
+    "red_cube_1": [
+      0.7814506419396516,
+      0.8453001956204942,
+      0.8249999339424149
+    ],
+    "red_cube_2": [
+      0.62,
+      -0.97,
+      0.8249998789017061
+    ],
+    "red_cube_3": [
+      0.75,
+      -0.9,
+      0.8249998789017061
+    ]
+  },
+  "maximum_world_z": {
+    "red_cube_1": 1.0736104076825883,
+    "red_cube_2": 0.8249998789017061,
+    "red_cube_3": 0.8249998789017061
+  },
+  "direction": "topmost",
+  "dialogue": [
+    {
+      "question": "I see 3 red cubes on Table A. Which one should I pick? Describe its position in the camera view, for example leftmost, rightmost, middle, topmost, or bottommost.",
+      "reply": "the cube at the top"
+    }
+  ],
+  "boxes_detected": 3,
+  "graph_status": "pick_place_complete",
+  "graph_error": "",
+  "clarification_correct": true,
+  "selection_correct": true,
+  "selected_box": [
+    333,
+    42,
+    408,
+    132
+  ],
+  "projected_centers_px": {
+    "red_cube_1": [
+      356.46625640781417,
+      91.08977376997758
+    ],
+    "red_cube_2": [
+      469.44382228454293,
+      203.41105854316717
+    ],
+    "red_cube_3": [
+      343.8056308280875,
+      286.80637032203333
+    ]
+  },
+  "matched_instances": [
+    "red_cube_1",
+    "red_cube_2",
+    "red_cube_3"
+  ],
+  "match_residuals_px": [
+    24.054079464407433,
+    16.73156512404615,
+    23.99708902034871
+  ],
+  "unique_match": true,
+  "chosen_model": "red_cube_1",
+  "lift_m": 0.2486105287808822,
+  "other_max_displacement_m": {
+    "red_cube_3": 0.0,
+    "red_cube_2": 0.0
+  },
+  "finished_at_utc": "2026-11-17T03:35:58.906550+00:00"
+}

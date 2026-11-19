@@ -1,0 +1,173 @@
+[
+  {
+    "case": "spatial_04",
+    "choice": "topmost",
+    "target_model": "red_cube_1",
+    "original": {
+      "world_sha256": "9880122c48e2e8268481a07c9836542a1fe05eeea117cc4d39117160afc94c6b",
+      "selected_instance": "red_cube_1",
+      "same_requested_instance": true,
+      "correct_selection": true,
+      "approach_executed": false,
+      "held_after_lift": false,
+      "held_after_navigation": false,
+      "verified_transfer": false,
+      "error": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}",
+      "max_rise_m": 0.0,
+      "max_bystander_displacement_m": 0.0,
+      "pickup_pose": null
+    },
+    "offset": {
+      "world_sha256": "9880122c48e2e8268481a07c9836542a1fe05eeea117cc4d39117160afc94c6b",
+      "selected_instance": "red_cube_1",
+      "same_requested_instance": true,
+      "correct_selection": true,
+      "approach_executed": true,
+      "held_after_lift": true,
+      "held_after_navigation": false,
+      "verified_transfer": false,
+      "error": "Fresh wrist RGB-D does not confirm the lifted target near the fingers",
+      "max_rise_m": 0.25074166174973356,
+      "max_bystander_displacement_m": 0.0,
+      "pickup_pose": {
+        "x": 1.22,
+        "y": -0.14,
+        "yaw": 0.0,
+        "frame_id": "map"
+      }
+    },
+    "centerline": {
+      "world_sha256": "9880122c48e2e8268481a07c9836542a1fe05eeea117cc4d39117160afc94c6b",
+      "selected_instance": "red_cube_1",
+      "same_requested_instance": true,
+      "correct_selection": true,
+      "approach_executed": true,
+      "held_after_lift": true,
+      "held_after_navigation": true,
+      "verified_transfer": true,
+      "error": null,
+      "max_rise_m": 0.2486105287808822,
+      "max_bystander_displacement_m": 0.0,
+      "pickup_pose": {
+        "x": 1.36,
+        "y": 0.0,
+        "yaw": 0.0,
+        "frame_id": "map"
+      }
+    }
+  },
+  {
+    "case": "spatial_06",
+    "choice": "leftmost",
+    "target_model": "green_cube_2",
+    "original": {
+      "world_sha256": "4e16b908ea703d2165d46156635da90cc71cb05dbf14b2123ed9c4fe4e09338e",
+      "selected_instance": "green_cube_2",
+      "same_requested_instance": true,
+      "correct_selection": true,
+      "approach_executed": false,
+      "held_after_lift": false,
+      "held_after_navigation": false,
+      "verified_transfer": false,
+      "error": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}",
+      "max_rise_m": 0.0,
+      "max_bystander_displacement_m": 0.0,
+      "pickup_pose": null
+    },
+    "offset": {
+      "world_sha256": "4e16b908ea703d2165d46156635da90cc71cb05dbf14b2123ed9c4fe4e09338e",
+      "selected_instance": "green_cube_2",
+      "same_requested_instance": true,
+      "correct_selection": true,
+      "approach_executed": true,
+      "held_after_lift": true,
+      "held_after_navigation": false,
+      "verified_transfer": false,
+      "error": "Fresh wrist RGB-D does not confirm the lifted target near the fingers",
+      "max_rise_m": 0.240355921641485,
+      "max_bystander_displacement_m": 0.0,
+      "pickup_pose": {
+        "x": 1.22,
+        "y": -0.14,
+        "yaw": 0.0,
+        "frame_id": "map"
+      }
+    },
+    "centerline": {
+      "world_sha256": "4e16b908ea703d2165d46156635da90cc71cb05dbf14b2123ed9c4fe4e09338e",
+      "selected_instance": "green_cube_2",
+      "same_requested_instance": true,
+      "correct_selection": true,
+      "approach_executed": true,
+      "held_after_lift": true,
+      "held_after_navigation": true,
+      "verified_transfer": true,
+      "error": null,
+      "max_rise_m": 0.23865806702678682,
+      "max_bystander_displacement_m": 0.0,
+      "pickup_pose": {
+        "x": 1.36,
+        "y": 0.0,
+        "yaw": 0.0,
+        "frame_id": "map"
+      }
+    }
+  },
+  {
+    "case": "spatial_09",
+    "choice": "topmost",
+    "target_model": "green_cube_1",
+    "original": {
+      "world_sha256": "9a9367e12c72227667c617293522d78fd9193b49d56096c7e80fb41d5b6fca84",
+      "selected_instance": "green_cube_1",
+      "same_requested_instance": true,
+      "correct_selection": true,
+      "approach_executed": false,
+      "held_after_lift": false,
+      "held_after_navigation": false,
+      "verified_transfer": false,
+      "error": "approach: {'status': 'failed', 'message': 'arm: failed', 'ros_status': 6, 'details': {'error_code': 99999}, 'success': False}",
+      "max_rise_m": 0.0,
+      "max_bystander_displacement_m": 0.0,
+      "pickup_pose": null
+    },
+    "offset": {
+      "world_sha256": "9a9367e12c72227667c617293522d78fd9193b49d56096c7e80fb41d5b6fca84",
+      "selected_instance": "green_cube_1",
+      "same_requested_instance": true,
+      "correct_selection": true,
+      "approach_executed": true,
+      "held_after_lift": true,
+      "held_after_navigation": true,
+      "verified_transfer": true,
+      "error": null,
+      "max_rise_m": 0.24260126515343217,
+      "max_bystander_displacement_m": 0.0,
+      "pickup_pose": {
+        "x": 1.22,
+        "y": -0.14,
+        "yaw": 0.0,
+        "frame_id": "map"
+      }
+    },
+    "centerline": {
+      "world_sha256": "9a9367e12c72227667c617293522d78fd9193b49d56096c7e80fb41d5b6fca84",
+      "selected_instance": "green_cube_1",
+      "same_requested_instance": true,
+      "correct_selection": true,
+      "approach_executed": true,
+      "held_after_lift": false,
+      "held_after_navigation": false,
+      "verified_transfer": false,
+      "error": "Fresh wrist RGB-D does not confirm the lifted target near the fingers",
+      "max_rise_m": 0.001796414799210444,
+      "max_bystander_displacement_m": 0.0,
+      "pickup_pose": {
+        "x": 1.36,
+        "y": 0.0,
+        "yaw": 0.0,
+        "frame_id": "map"
+      }
+    }
+  }
+]

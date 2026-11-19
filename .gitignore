@@ -1,0 +1,11 @@
+.env
+.worktrees/
+logs/
+
+tests/worlds/*
+!/tests/worlds/duplicate_clarification.json
+worlds/*
+
+__pycache__/
+
+/thesis/

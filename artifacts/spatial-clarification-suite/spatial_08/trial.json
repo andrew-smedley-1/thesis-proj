@@ -1,0 +1,27 @@
+{
+  "instruction_row": 3,
+  "expected_position": "middle",
+  "replies": [
+    "the blue cube",
+    "the one in the middle"
+  ],
+  "table_A_xy_m": [
+    [
+      0.59,
+      -1.05
+    ],
+    [
+      0.75,
+      -1.04
+    ],
+    [
+      0.67,
+      -0.91
+    ]
+  ],
+  "world": "spatial_08",
+  "instruction": "Take the blue cube to Table B from Table A.",
+  "container": "moma-spatial-e15d5a21d4",
+  "verifier_exit_code": 0,
+  "simulator_stopped": true
+}

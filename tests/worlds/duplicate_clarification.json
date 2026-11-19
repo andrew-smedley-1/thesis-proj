@@ -1,0 +1,13 @@
+[
+  {
+    "id": "duplicate_clarification_01",
+    "table_A": [
+      "red cube",
+      "red cube",
+      "red cube"
+    ],
+    "table_B": [],
+    "world_file": "../scenes/duplicate_clarification_01.sdf",
+    "placements_file": "../scenes/duplicate_clarification_01.placements.json"
+  }
+]

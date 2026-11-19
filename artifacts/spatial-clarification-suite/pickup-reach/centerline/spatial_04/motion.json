@@ -1,0 +1,280 @@
+[
+  {
+    "event": "carry_pose",
+    "wall_time": 1794886196.9039245,
+    "target": [
+      0.4,
+      -0.4,
+      1.35
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "destination_overview",
+    "wall_time": 1794886258.7331111,
+    "target": [
+      0.4,
+      -0.9,
+      1.25
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "destination_clear_patch",
+    "wall_time": 1794886271.5573986,
+    "position": [
+      1.6400000000000001,
+      0.88,
+      0.8615344324792186
+    ],
+    "plane": [
+      0.006936263793449493,
+      0.0007788607765262245,
+      0.8494735623746184
+    ]
+  },
+  {
+    "event": "carry_pose",
+    "wall_time": 1794886271.5593178,
+    "target": [
+      0.4,
+      -0.4,
+      1.35
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "source_overview",
+    "wall_time": 1794886314.3805404,
+    "target": [
+      0.2532385035881461,
+      -0.8488299493949675,
+      1.25
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "rgbd_grasp_plan",
+    "wall_time": 1794886330.0374196,
+    "color": "red",
+    "shape": "cube",
+    "center": [
+      1.5198414884934177,
+      -1.0655158857073006,
+      0.8864637036733668
+    ],
+    "grasp": [
+      1.5198414884934177,
+      -1.0655158857073006,
+      1.1084637036733669
+    ],
+    "lift": [
+      1.5198414884934177,
+      -1.0655158857073006,
+      1.2814637036733667
+    ]
+  },
+  {
+    "event": "gripper",
+    "wall_time": 1794886330.5623794,
+    "target": 0.01,
+    "status": "succeeded",
+    "message": "gripper: succeeded",
+    "ros_status": 4,
+    "details": {
+      "position": 0.019150716996893427,
+      "effort": 60.0,
+      "stalled": false,
+      "reached_goal": true
+    },
+    "success": true
+  },
+  {
+    "event": "approach",
+    "wall_time": 1794886331.2642038,
+    "target": [
+      1.5198414884934177,
+      -1.0655158857073006,
+      1.2814637036733667
+    ],
+    "frame": "odom",
+    "linear": false
+  },
+  {
+    "event": "descend",
+    "wall_time": 1794886342.3701873,
+    "target": [
+      1.5198414884934177,
+      -1.0655158857073006,
+      1.1084637036733669
+    ],
+    "frame": "odom",
+    "linear": true
+  },
+  {
+    "event": "gripper",
+    "wall_time": 1794886374.6989212,
+    "target": 0.54,
+    "status": "succeeded",
+    "message": "gripper: succeeded",
+    "ros_status": 4,
+    "details": {
+      "position": 0.5305210371809507,
+      "effort": 60.0,
+      "stalled": false,
+      "reached_goal": true
+    },
+    "success": true
+  },
+  {
+    "event": "lift",
+    "wall_time": 1794886375.4089708,
+    "target": [
+      1.5198414884934177,
+      -1.0655158857073006,
+      1.2814637036733667
+    ],
+    "frame": "odom",
+    "linear": true
+  },
+  {
+    "event": "held_sensor_evidence",
+    "wall_time": 1794886406.39277,
+    "color": "red",
+    "target_pixels": 16053,
+    "nearby_pixels": 13504,
+    "expected": [
+      1.5198414584364264,
+      -1.0655159332950892,
+      1.0594587824807573
+    ],
+    "nearest_distance": 0.01338052473895029,
+    "median_target_position": [
+      1.5165787567528342,
+      -1.077911635456792,
+      1.0790244942567413
+    ]
+  },
+  {
+    "event": "held_verified",
+    "wall_time": 1794886406.396396,
+    "pixels": 13504,
+    "measured": [
+      1.5202416022256606,
+      -1.0823570088732817,
+      1.0801455323754767
+    ]
+  },
+  {
+    "event": "carry_pose",
+    "wall_time": 1794886406.3997927,
+    "target": [
+      0.4,
+      -0.4,
+      1.35
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "held_sensor_evidence",
+    "wall_time": 1794886452.8803465,
+    "color": "red",
+    "target_pixels": 13707,
+    "nearby_pixels": 13707,
+    "expected": [
+      1.465825095589366,
+      0.3618698004568332,
+      1.1294439924555293
+    ],
+    "nearest_distance": 0.012963342175036965,
+    "median_target_position": [
+      1.4624800740151562,
+      0.37697777040853536,
+      1.1502293008746045
+    ]
+  },
+  {
+    "event": "held_verified",
+    "wall_time": 1794886452.8832035,
+    "pixels": 13707,
+    "measured": [
+      1.4624800740151562,
+      0.37697777040853536,
+      1.1502293008746045
+    ]
+  },
+  {
+    "event": "place_approach",
+    "wall_time": 1794886452.891212,
+    "target": [
+      1.6400000000000001,
+      0.88,
+      1.2815344324792186
+    ],
+    "frame": "odom",
+    "linear": false
+  },
+  {
+    "event": "lower_to_place",
+    "wall_time": 1794886477.8983977,
+    "target": [
+      1.6400000000000001,
+      0.88,
+      1.1085344324792186
+    ],
+    "frame": "odom",
+    "linear": true
+  },
+  {
+    "event": "gripper",
+    "wall_time": 1794886506.9877832,
+    "target": 0.01,
+    "status": "succeeded",
+    "message": "gripper: succeeded",
+    "ros_status": 4,
+    "details": {
+      "position": 0.019943600886016394,
+      "effort": 60.0,
+      "stalled": false,
+      "reached_goal": true
+    },
+    "success": true
+  },
+  {
+    "event": "place_retreat",
+    "wall_time": 1794886507.6952002,
+    "target": [
+      1.6400000000000001,
+      0.88,
+      1.2815344324792186
+    ],
+    "frame": "odom",
+    "linear": true
+  },
+  {
+    "event": "destination_verification_overview",
+    "wall_time": 1794886535.3271866,
+    "target": [
+      0.4,
+      -0.9,
+      1.25
+    ],
+    "frame": "base_link",
+    "linear": false
+  },
+  {
+    "event": "placement_verified",
+    "wall_time": 1794886554.8739936,
+    "pixels": 5787,
+    "measured": [
+      1.6304405343002097,
+      0.8829994848972249,
+      0.9104267171508483
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "instruction": "Move the red cylinder to Table B.",
+    "expected": {"target_object": "red cylinder", "start_location": null, "end_location": "Table B"},
+    "missing_fields": ["start_location"]
+  },
+  {
+    "instruction": "From Table A, take the green sphere.",
+    "expected": {"target_object": "green sphere", "start_location": "Table A", "end_location": null},
+    "missing_fields": ["end_location"]
+  },
+  {
+    "instruction": "Bring an object to Table A from Table B.",
+    "expected": {"target_object": null, "start_location": "Table B", "end_location": "Table A"},
+    "missing_fields": ["target_object"]
+  },
+  {
+    "instruction": "Please carry the blue cube.",
+    "expected": {"target_object": "blue cube", "start_location": null, "end_location": null},
+    "missing_fields": ["start_location", "end_location"]
+  },
+  {
+    "instruction": "To Table B, transfer an object.",
+    "expected": {"target_object": null, "start_location": null, "end_location": "Table B"},
+    "missing_fields": ["target_object", "start_location"]
+  },
+  {
+    "instruction": "Pick up an object from Table A and take it away.",
+    "expected": {"target_object": null, "start_location": "Table A", "end_location": null},
+    "missing_fields": ["target_object", "end_location"]
+  },
+  {
+    "instruction": "Please move an object.",
+    "expected": {"target_object": null, "start_location": null, "end_location": null},
+    "missing_fields": ["target_object", "start_location", "end_location"]
+  }
+]

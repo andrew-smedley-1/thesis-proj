@@ -1,0 +1,141 @@
+{
+  "description": "Generated offline position-only clarification regression cases with expected pixel geometry; top differs from left.",
+  "task_input": "Pick up the red cube from Table A and set it down on Table B.",
+  "boxes_normalized_yxyx": [
+    [
+      100,
+      400,
+      300,
+      600
+    ],
+    [
+      400,
+      100,
+      600,
+      300
+    ],
+    [
+      700,
+      700,
+      900,
+      900
+    ]
+  ],
+  "boxes_pixel_xyxy": [
+    [
+      40,
+      8,
+      60,
+      24
+    ],
+    [
+      10,
+      32,
+      30,
+      48
+    ],
+    [
+      70,
+      56,
+      90,
+      72
+    ]
+  ],
+  "cases": [
+    {
+      "reply": "left most",
+      "expected_selected_box_xyxy": [
+        10,
+        32,
+        30,
+        48
+      ]
+    },
+    {
+      "reply": "pick up the left most red cube",
+      "expected_selected_box_xyxy": [
+        10,
+        32,
+        30,
+        48
+      ]
+    },
+    {
+      "reply": "right",
+      "expected_selected_box_xyxy": [
+        70,
+        56,
+        90,
+        72
+      ]
+    },
+    {
+      "reply": "middle",
+      "expected_selected_box_xyxy": [
+        40,
+        8,
+        60,
+        24
+      ]
+    },
+    {
+      "reply": "top",
+      "expected_selected_box_xyxy": [
+        40,
+        8,
+        60,
+        24
+      ]
+    },
+    {
+      "reply": "bottom",
+      "expected_selected_box_xyxy": [
+        70,
+        56,
+        90,
+        72
+      ]
+    },
+    {
+      "reply": "the one on the left",
+      "expected_selected_box_xyxy": [
+        10,
+        32,
+        30,
+        48
+      ]
+    },
+    {
+      "reply": "the cube at the top",
+      "expected_selected_box_xyxy": [
+        40,
+        8,
+        60,
+        24
+      ]
+    }
+  ],
+  "invalid_replies": [
+    "purple cube",
+    "",
+    "left and right",
+    "left most blue sphere",
+    "pick up the left most red cylinder"
+  ],
+  "cancel_replies": [
+    "cancel"
+  ],
+  "recovery_reply": "middle",
+  "recovery_expected_selected_box_xyxy": [
+    40,
+    8,
+    60,
+    24
+  ],
+  "explicit_leftmost_expected_selected_box_xyxy": [
+    10,
+    32,
+    30,
+    48
+  ]
+}

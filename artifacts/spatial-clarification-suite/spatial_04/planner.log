@@ -1,0 +1,1 @@
+[move_group-8] [ERROR] [1794883305.211964673] [move_group.moveit.moveit.planners.ompl.planner_manager]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:265 - tm12S_planninggroup/tm12S_planninggroup: Unable to sample any valid states for goal tree
